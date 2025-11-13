@@ -4,6 +4,9 @@ a = {"Ricky, Mia, Zoe, Adam"} #art
 m = {"Zoe, Adam, Mina, Emma"} #math
 
 display(a - m, target='output')  #students who take art but not math
-display(m - a, target='output')  #students who take math but not art
+display(a.union(m), target='output')  #all students
 display(a & m, target='output')  #students who take both art and math
 display(a | m, target='output')  #students who take either art or math
+
+display(a, target='output')
+display(m, target='output')
